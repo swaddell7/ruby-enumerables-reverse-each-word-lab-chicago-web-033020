@@ -1,6 +1,6 @@
 def reverse_each_word(string)
   array = string.split
-  new_array = array.map{|word| word.reverse}
+  new_array = array.collect{|word| word.reverse}
 end  
 
 #array.reverse will put the array in reverse order but not the letters in each word 
