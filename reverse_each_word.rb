@@ -1,9 +1,8 @@
 def reverse_each_word(string)
   array = string.split
-  index = 0
-  while index < array.length do
-    array.each{|array| array[index].reverse}
-    index += 1
-  end
+
   
 end  
+
+#array.reverse will put the array in reverse order but not the letters in each word 
+#array[index] reverses the letters in that particular word for ex: "olleH"
